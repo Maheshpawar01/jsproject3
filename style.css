@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(238, 113, 113);
+}
+
+.container{
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    min-height: 350px;
+    margin: auto;
+    padding: 25px;
+    text-align: center;
+    background-color: bisque;
+    border: 3px solid black;
+    color: #3f3a3a;
+}
+
+.counter h1{
+    color: #000;
+    font-size: 2rem;
+}
+
+#count{
+    font-size: 8rem;
+}
+
+#buttons{
+    display: inline-block;
+}
